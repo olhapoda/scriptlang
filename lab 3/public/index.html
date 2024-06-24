@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>База даних</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>База даних активних користувачів сайту</h1>
+        <form id="item-form">
+            <input type="text" id="name" placeholder="Ім'я" required>
+            <input type="number" id="age" placeholder="Вік" required>
+            <button type="submit">Додати користувача</button>
+        </form>
+        <form id="search-form">
+            <input type="text" id="search" placeholder="Пошук користувачів">
+            <button type="submit">Пошук</button>
+        </form>
+        <h2>Список користувачів</h2>
+        <table id="items-table">
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Вік</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
+
+
+
+
+
